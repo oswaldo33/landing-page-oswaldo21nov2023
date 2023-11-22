@@ -69,7 +69,7 @@ h1 {
   font-family: 'Roboto', arial;
 }
 
-.hero button {
+.team button {
   display: block;
   text-align: center;
   width: 110px;
@@ -89,13 +89,14 @@ h1 {
 }
 
 .content {
-  align-items: center;
+  margin: 5rem;
 }
 
 .content-info {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .content-info img {
@@ -112,10 +113,11 @@ h1 {
   flex-direction: column;
   background-color:rgb(107, 107, 208);
   padding: 0 200px;
+  height: 300px;
 }
 
 .quote p {
-  font-size: 36px;
+  font-size: 50px;
   color: #fcfdfe;
   font-style: italic;
   font-weight: lighter;
@@ -123,7 +125,7 @@ h1 {
 }
 
 .quote b {
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   padding-right: 10px;
   font-family: 'Roboto', arial;
   text-align: right;
@@ -171,7 +173,8 @@ h3 {
 }
 
 .footer {
-  background-color: #1F2937;
+  background-color: rgb(107, 107, 208);
   color: #fff;
   font-family: 'Roboto', arial;
+  padding: 20px;
 }
